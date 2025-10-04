@@ -9,12 +9,12 @@ WebGL published here (EDIT IT!) https://kragerles.github.io/UnityBoilerplate/
 - [X] I have cloned it to my machine and edited the README.md file to include my own information on the url for the web build;
 - [X] I have followed the instructions to activate my personal licence here: https://game.ci/docs/github/activation/ ;
     - [X] If I choose to make the repository private, I will follow this guide to add the instructor as a collaborator. https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository and set up the keys here https://game.ci/docs/github/builder/#private-github-repositories
-- [ ] I have visited the `Settings` > `Secrets and Variables` > `Actions`;
-- [ ] I have added the `UNITY_SERIAL` secret to my repository with the Unity license key;
-- [ ] I have added the `UNITY_EMAIL` secret to my repository with the Unity username;
-- [ ] I have added the `UNITY_PASSWORD` secret to my repository with the Unity password;
-- [ ] I changed the `Settings` > `Actions` > `General` > `Workflow Permissions` to `Read and write permissions for actions`;
-- [ ] I cloned the repository to my local machine and opened the project in Unity and made changes to the project;
+- [X] I have visited the `Settings` > `Secrets and Variables` > `Actions`;
+- [X] I have added the `UNITY_SERIAL` secret to my repository with the Unity license key;
+- [X] I have added the `UNITY_EMAIL` secret to my repository with the Unity username;
+- [X] I have added the `UNITY_PASSWORD` secret to my repository with the Unity password;
+- [X] I changed the `Settings` > `Actions` > `General` > `Workflow Permissions` to `Read and write permissions for actions`;
+- [X] I cloned the repository to my local machine and opened the project in Unity and made changes to the project;
 - [ ] I have committed and pushed the changes to the `main` or `master` branch of the repository;
 - [ ] I understand that every time I push to the `main` or `master` branch, the project will be built and deployed to the `gh-pages` branch;
 - [ ] I saw the GitHub Actions build the project;
