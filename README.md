@@ -16,7 +16,11 @@ WebGL published here (EDIT IT!) https://kragerles.github.io/UnityBoilerplate/
 - [X] I changed the `Settings` > `Actions` > `General` > `Workflow Permissions` to `Read and write permissions for actions`;
 - [X] I cloned the repository to my local machine and opened the project in Unity and made changes to the project;
 <<<<<<< HEAD
+<<<<<<< HEAD
 - [ ] I have committed and pushed the changes to the `main` or `master` branch of the repository;
+=======
+- [X] I have committed and pushed the changes to the `main` or `master` branch of the repository;
+>>>>>>> parent of 3a45a55 (Revert "Unity Update")
 - [ ] I understand that every time I push to the `main` or `master` branch, the project will be built and deployed to the `gh-pages` branch;
 - [ ] I saw the GitHub Actions build the project;
 - [ ] I changed the `Settings` > `Pages` > `Source` to `gh-pages` branch;
