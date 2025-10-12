@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class ManagerScript : MonoBehaviour
 {
     int coins = 0;
@@ -12,7 +12,12 @@ public class ManagerScript : MonoBehaviour
     }
 
     // Update is called once per frame
-    public int GetCoins(){
+    public int GetCoins()
+    {
         return coins;
+    }
+    public void returnToMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 }

@@ -1,16 +1,16 @@
 using UnityEngine;
 
-public class CoinScript : MonoBehaviour
+public class TrapScript : MonoBehaviour
 {
-    private ManagerScript _manager;
+    private PlayerScript manager;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        _manager = GameObject.FindObjectOfType<ManagerScript>();
+        manager = GameObject.FindObjectOfType<PlayerScript>();
     }
+
     void OnTriggerEnter(Collider other)
     {
-        _manager.CollectCoin();
-        Destroy(gameObject);
+        manager.Reset();
     }
 }

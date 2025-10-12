@@ -1,5 +1,4 @@
 using UnityEngine;
-
 public class PlayerScript : MonoBehaviour
 {
     private Rigidbody _rb;
@@ -13,17 +12,21 @@ public class PlayerScript : MonoBehaviour
     void Update()
     {
         Vector3 vel = _rb.linearVelocity;
-        if(Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             _rb.linearVelocity = new Vector3(3f, vel.y, vel.z);
         }
-        if(Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             _rb.linearVelocity = new Vector3(-3f, vel.y, vel.z);
         }
-        if(Input.GetKey(KeyCode.Space) && _rb.linearVelocity.y == 0)
+        if (Input.GetKey(KeyCode.Space) && _rb.linearVelocity.y == 0)
         {
             _rb.linearVelocity = new Vector3(vel.x, 7f, vel.z);
         }
+    }
+    public void Reset()
+    {
+        transform.position = new Vector3(-4.4f, -.75f, 0f);
     }
 }
